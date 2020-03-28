@@ -1,0 +1,43 @@
+
+.Transaction {
+  padding: .5rem 1rem;
+}
+
+.Transaction__Category {
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+.Transaction__Metadata {
+  display: flex;
+  align-items: center;
+  font-size: .75rem;
+}
+
+.Transaction__Date {
+  margin-right: auto;
+  color: #a1a1a3;
+}
+
+.Transaction__Quantiy {
+  font-weight: 600;
+  padding: .125rem .25rem;
+  border-radius: 1rem;
+}
+
+.Transaction__Quantiy-income {
+  color: #4c51bf;
+  background-color: #c3dafe;
+}
+.Transaction__Quantiy-income::before {
+  content: '+';
+}
+
+.Transaction__Quantiy-outcome {
+  color: #c53030;
+  background-color: #fed7d7;
+}
+
+.Transaction__Quantiy-outcome::before {
+  content: '-';
+}

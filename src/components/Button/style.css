@@ -1,0 +1,9 @@
+.Button {
+  border: 0;
+  padding: 0;
+  transition: transform .3s ease-in-out;
+}
+
+.Button:active {
+  transform: scale(0.9);
+}

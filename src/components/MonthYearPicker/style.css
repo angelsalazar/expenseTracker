@@ -1,0 +1,75 @@
+.MonthYearPicker {
+  position: relative;
+}
+
+.MonthYearPicker__Trigger {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: .85rem;
+   padding: .125rem .25rem; 
+}
+
+.MonthYearPicker__Trigger svg {
+  width: 1.25rem;
+  height: 1.25rem
+}
+
+.MonthYearPicker__Trigger:hover {
+	background-color: #edf2f7;
+}
+
+.MonthYearPicker__Panel {
+  box-shadow:
+    0 5px 5px -3px rgba(0,0,0,.2),
+    0 8px 10px 1px rgba(0,0,0,.14),
+    0 3px 14px 2px rgba(0,0,0,.12);
+  right: 0;
+  position: absolute;
+  background-color: #fff;
+  min-width: 250px;
+  transform-origin: right;
+}
+
+.MonthYearPicker__Panel__Display {
+  font-weight: 600;
+}
+
+.MonthYearPicker__Panel__Content {
+  padding: 1rem;
+  position: relative;
+}
+
+.MonthYearPicker__Panel__Close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 24px;
+  height: 24px;
+}
+
+.MonthYearPicker__Panel__Close svg {
+  height: 20px;
+  width: 20px;
+}
+
+.MonthYearPicker__Panel-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.MonthYearPicker__Panel-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.MonthYearPicker__Panel-exit {
+  opacity: 1;
+}
+
+.MonthYearPicker__Panel-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

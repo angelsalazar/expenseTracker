@@ -1,0 +1,50 @@
+.Sidebar {
+  background-color: #184799;
+  color: #fff;
+  min-width: 200px;
+  height: 100vh;
+}
+
+.Sidebar__User-Detail {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sidebar__User-Detail__User {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.Sidebar__Nav {
+  border-top-right-radius: 4rem;
+  padding: 3rem 1rem 1rem;
+  height: calc(100vh - 200px);
+  background-color: #1F5AC1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar__Nav__Gap {
+    flex: 1;
+}
+
+.Sidebar__Nav__Item {
+  display: flex;
+  align-items: center;
+  color: #CBD5E0;
+  margin-bottom: .75rem;
+  text-decoration: none;
+}
+
+.Sidebar__Nav__Item svg {
+  fill: currentColor;
+  margin-right: .5rem;
+}
+
+.Sidebar__Nav__Item-active {
+  color: inherit;
+  font-weight: 600;
+}

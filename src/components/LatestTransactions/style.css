@@ -1,0 +1,15 @@
+.LatestTransactions {
+  min-width: 350px;
+}
+
+.LatestTransactions__Header {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.LatestTransactions__Action {
+  top: 0;
+  right: 0;
+  position: absolute;
+}

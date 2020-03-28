@@ -1,0 +1,14 @@
+.Layout {
+  display: flex;
+  background-color: #F9F9F9;
+}
+
+.Layout__Content {
+  flex: 1;
+}
+
+.Layout__Page-Container {
+  padding-top: 1rem;
+  width: 75%;
+  margin: 0 auto;
+}

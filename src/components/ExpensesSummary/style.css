@@ -1,0 +1,37 @@
+.ExpensesSummary {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ExpensesSummary__Quantity {
+  display: flex;
+}
+
+.ExpensesSummary__Quantity__Detail {
+  padding: 0 .5rem;
+}
+
+.ExpensesSummary__Quantity .ExpensesSummary__Quantity__Detail:first-child {
+  padding-left: 0;
+}
+
+.ExpensesSummary__Quantity__Detail p {
+  font-weight: 600;
+  text-align: center;
+}
+
+.ExpensesSummary__Quantity__Detail p:first-child {
+  margin-bottom: .25rem;
+}
+
+.ExpensesSummary__Quantity__Detail__Label {
+  color: #A7A7A7;
+  font-size: .75rem;
+}
+
+.ExpensesSummary__Quantity__Detail-boundary {
+  border-right: 1px solid #F0F0F0;
+  border-left: 1px solid #F0F0F0;
+}

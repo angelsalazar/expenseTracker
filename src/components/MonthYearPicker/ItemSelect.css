@@ -1,0 +1,29 @@
+.ItemSelect {
+  min-height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #060719;
+}
+
+.ItemSelect-small {
+  font-size: .9rem;
+}
+
+.ItemSelect__Option {
+  width: 3rem;
+  padding: .5rem;
+  text-align: center;
+  border-radius: .25rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.ItemSelect__Option:not(.ItemSelect__Option-selected):hover {
+  background-color: #EBF8FF;
+}
+
+.ItemSelect__Option-selected {
+  background-color: #1F5AC1;
+  color: white;
+}
